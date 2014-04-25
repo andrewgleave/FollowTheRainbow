@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C271DB9518172FD200FC665E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271DB9418172FD200FC665E /* Foundation.framework */; };
+		C271DB9718172FD200FC665E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271DB9618172FD200FC665E /* CoreGraphics.framework */; };
+		C271DB9918172FD200FC665E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271DB9818172FD200FC665E /* UIKit.framework */; };
+		C271DB9F18172FD200FC665E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C271DB9D18172FD200FC665E /* InfoPlist.strings */; };
+		C271DBA118172FD200FC665E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C271DBA018172FD200FC665E /* main.m */; };
+		C271DBA518172FD200FC665E /* RRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C271DBA418172FD200FC665E /* RRAppDelegate.m */; };
+		C271DBA818172FD200FC665E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C271DBA618172FD200FC665E /* Main.storyboard */; };
+		C271DBAB18172FD200FC665E /* RRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C271DBAA18172FD200FC665E /* RRViewController.m */; };
+		C271DBB418172FD200FC665E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271DBB318172FD200FC665E /* XCTest.framework */; };
+		C271DBB518172FD200FC665E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271DB9418172FD200FC665E /* Foundation.framework */; };
+		C271DBB618172FD200FC665E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271DB9818172FD200FC665E /* UIKit.framework */; };
+		C271DBBE18172FD200FC665E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C271DBBC18172FD200FC665E /* InfoPlist.strings */; };
+		C271DBC018172FD200FC665E /* FollowTheRainbowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C271DBBF18172FD200FC665E /* FollowTheRainbowTests.m */; };
+		C271DBCB18173A3600FC665E /* RRIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C271DBCA18173A3600FC665E /* RRIndicatorView.m */; };
+		C271DBCE18173A7300FC665E /* RRGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C271DBCD18173A7300FC665E /* RRGradientView.m */; };
+		C28DC64A1817DDEA009F744C /* UIColor+CIELAB.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DC63F1817DDEA009F744C /* UIColor+CIELAB.m */; };
+		C28DC64B1817DDEA009F744C /* UIColor+Crayola.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DC6411817DDEA009F744C /* UIColor+Crayola.m */; };
+		C28DC64C1817DDEA009F744C /* UIColor+HCL.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DC6431817DDEA009F744C /* UIColor+HCL.m */; };
+		C28DC64D1817DDEA009F744C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DC6451817DDEA009F744C /* UIColor+Hex.m */; };
+		C28DC64E1817DDEA009F744C /* UIColor+HSB.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DC6471817DDEA009F744C /* UIColor+HSB.m */; };
+		C28DC64F1817DDEA009F744C /* UIColor+HSL.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DC6491817DDEA009F744C /* UIColor+HSL.m */; };
+		C28DC6511817F5E4009F744C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28DC6501817F5E4009F744C /* QuartzCore.framework */; };
+		C28DC6531817F5F2009F744C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28DC6521817F5F2009F744C /* CoreLocation.framework */; };
+		C28DC656181925E1009F744C /* CLLocation+Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DC655181925E1009F744C /* CLLocation+Direction.m */; };
+		C2B21DB7181C64AA00F6BCEC /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B21DB6181C64AA00F6BCEC /* Base64.m */; };
+		C2ED95F418216FD2007F5A07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2ED95F318216FD2007F5A07 /* Images.xcassets */; };
+		C2F7E56D181FCEB7004294A2 /* RNTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F7E56C181FCEB7004294A2 /* RNTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C271DBB718172FD200FC665E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C271DB8918172FD200FC665E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C271DB9018172FD200FC665E;
+			remoteInfo = FollowTheRainbow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C271DB9118172FD200FC665E /* FollowTheRainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowTheRainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C271DB9418172FD200FC665E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C271DB9618172FD200FC665E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C271DB9818172FD200FC665E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C271DB9C18172FD200FC665E /* FollowTheRainbow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FollowTheRainbow-Info.plist"; sourceTree = "<group>"; };
+		C271DB9E18172FD200FC665E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C271DBA018172FD200FC665E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C271DBA218172FD200FC665E /* FollowTheRainbow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FollowTheRainbow-Prefix.pch"; sourceTree = "<group>"; };
+		C271DBA318172FD200FC665E /* RRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRAppDelegate.h; sourceTree = "<group>"; };
+		C271DBA418172FD200FC665E /* RRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRAppDelegate.m; sourceTree = "<group>"; };
+		C271DBA718172FD200FC665E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C271DBA918172FD200FC665E /* RRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRViewController.h; sourceTree = "<group>"; };
+		C271DBAA18172FD200FC665E /* RRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRViewController.m; sourceTree = "<group>"; };
+		C271DBB218172FD200FC665E /* FollowTheRainbowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowTheRainbowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C271DBB318172FD200FC665E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C271DBBB18172FD200FC665E /* FollowTheRainbowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FollowTheRainbowTests-Info.plist"; sourceTree = "<group>"; };
+		C271DBBD18172FD200FC665E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C271DBBF18172FD200FC665E /* FollowTheRainbowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowTheRainbowTests.m; sourceTree = "<group>"; };
+		C271DBC918173A3600FC665E /* RRIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRIndicatorView.h; sourceTree = "<group>"; };
+		C271DBCA18173A3600FC665E /* RRIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRIndicatorView.m; sourceTree = "<group>"; };
+		C271DBCC18173A7300FC665E /* RRGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRGradientView.h; sourceTree = "<group>"; };
+		C271DBCD18173A7300FC665E /* RRGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRGradientView.m; sourceTree = "<group>"; };
+		C28DC63C1817DDEA009F744C /* Crayola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crayola.h; sourceTree = "<group>"; };
+		C28DC63D1817DDEA009F744C /* EDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDColor.h; sourceTree = "<group>"; };
+		C28DC63E1817DDEA009F744C /* UIColor+CIELAB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CIELAB.h"; sourceTree = "<group>"; };
+		C28DC63F1817DDEA009F744C /* UIColor+CIELAB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CIELAB.m"; sourceTree = "<group>"; };
+		C28DC6401817DDEA009F744C /* UIColor+Crayola.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Crayola.h"; sourceTree = "<group>"; };
+		C28DC6411817DDEA009F744C /* UIColor+Crayola.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Crayola.m"; sourceTree = "<group>"; };
+		C28DC6421817DDEA009F744C /* UIColor+HCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HCL.h"; sourceTree = "<group>"; };
+		C28DC6431817DDEA009F744C /* UIColor+HCL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HCL.m"; sourceTree = "<group>"; };
+		C28DC6441817DDEA009F744C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C28DC6451817DDEA009F744C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C28DC6461817DDEA009F744C /* UIColor+HSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HSB.h"; sourceTree = "<group>"; };
+		C28DC6471817DDEA009F744C /* UIColor+HSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HSB.m"; sourceTree = "<group>"; };
+		C28DC6481817DDEA009F744C /* UIColor+HSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HSL.h"; sourceTree = "<group>"; };
+		C28DC6491817DDEA009F744C /* UIColor+HSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HSL.m"; sourceTree = "<group>"; };
+		C28DC6501817F5E4009F744C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C28DC6521817F5F2009F744C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C28DC654181925E1009F744C /* CLLocation+Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Direction.h"; sourceTree = "<group>"; };
+		C28DC655181925E1009F744C /* CLLocation+Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Direction.m"; sourceTree = "<group>"; };
+		C2B21DB5181C64AA00F6BCEC /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		C2B21DB6181C64AA00F6BCEC /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		C2ED95F318216FD2007F5A07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2ED95F51821706D007F5A07 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+		C2ED95F618217087007F5A07 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		C2F7E56B181FCEB7004294A2 /* RNTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTimer.h; sourceTree = "<group>"; };
+		C2F7E56C181FCEB7004294A2 /* RNTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C271DB8E18172FD200FC665E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28DC6531817F5F2009F744C /* CoreLocation.framework in Frameworks */,
+				C28DC6511817F5E4009F744C /* QuartzCore.framework in Frameworks */,
+				C271DB9718172FD200FC665E /* CoreGraphics.framework in Frameworks */,
+				C271DB9918172FD200FC665E /* UIKit.framework in Frameworks */,
+				C271DB9518172FD200FC665E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271DBAF18172FD200FC665E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271DBB418172FD200FC665E /* XCTest.framework in Frameworks */,
+				C271DBB618172FD200FC665E /* UIKit.framework in Frameworks */,
+				C271DBB518172FD200FC665E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C271DB8818172FD200FC665E = {
+			isa = PBXGroup;
+			children = (
+				C2ED95F618217087007F5A07 /* splash.png */,
+				C2ED95F51821706D007F5A07 /* icon-120.png */,
+				C271DB9A18172FD200FC665E /* FollowTheRainbow */,
+				C271DBB918172FD200FC665E /* FollowTheRainbowTests */,
+				C271DB9318172FD200FC665E /* Frameworks */,
+				C271DB9218172FD200FC665E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C271DB9218172FD200FC665E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C271DB9118172FD200FC665E /* FollowTheRainbow.app */,
+				C271DBB218172FD200FC665E /* FollowTheRainbowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C271DB9318172FD200FC665E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C28DC6521817F5F2009F744C /* CoreLocation.framework */,
+				C28DC6501817F5E4009F744C /* QuartzCore.framework */,
+				C271DB9418172FD200FC665E /* Foundation.framework */,
+				C271DB9618172FD200FC665E /* CoreGraphics.framework */,
+				C271DB9818172FD200FC665E /* UIKit.framework */,
+				C271DBB318172FD200FC665E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C271DB9A18172FD200FC665E /* FollowTheRainbow */ = {
+			isa = PBXGroup;
+			children = (
+				C271DBCC18173A7300FC665E /* RRGradientView.h */,
+				C28DC63B1817DDEA009F744C /* EDColor */,
+				C271DBCD18173A7300FC665E /* RRGradientView.m */,
+				C2F7E56E181FCEBE004294A2 /* RNTimer */,
+				C271DBA318172FD200FC665E /* RRAppDelegate.h */,
+				C2B21DB4181C64AA00F6BCEC /* Base64 */,
+				C271DBA418172FD200FC665E /* RRAppDelegate.m */,
+				C271DBA618172FD200FC665E /* Main.storyboard */,
+				C271DBA918172FD200FC665E /* RRViewController.h */,
+				C271DBAA18172FD200FC665E /* RRViewController.m */,
+				C271DB9B18172FD200FC665E /* Supporting Files */,
+				C271DBC918173A3600FC665E /* RRIndicatorView.h */,
+				C271DBCA18173A3600FC665E /* RRIndicatorView.m */,
+				C28DC654181925E1009F744C /* CLLocation+Direction.h */,
+				C28DC655181925E1009F744C /* CLLocation+Direction.m */,
+				C2ED95F318216FD2007F5A07 /* Images.xcassets */,
+			);
+			path = FollowTheRainbow;
+			sourceTree = "<group>";
+		};
+		C271DB9B18172FD200FC665E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C271DB9C18172FD200FC665E /* FollowTheRainbow-Info.plist */,
+				C271DB9D18172FD200FC665E /* InfoPlist.strings */,
+				C271DBA018172FD200FC665E /* main.m */,
+				C271DBA218172FD200FC665E /* FollowTheRainbow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C271DBB918172FD200FC665E /* FollowTheRainbowTests */ = {
+			isa = PBXGroup;
+			children = (
+				C271DBBF18172FD200FC665E /* FollowTheRainbowTests.m */,
+				C271DBBA18172FD200FC665E /* Supporting Files */,
+			);
+			path = FollowTheRainbowTests;
+			sourceTree = "<group>";
+		};
+		C271DBBA18172FD200FC665E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C271DBBB18172FD200FC665E /* FollowTheRainbowTests-Info.plist */,
+				C271DBBC18172FD200FC665E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C28DC63B1817DDEA009F744C /* EDColor */ = {
+			isa = PBXGroup;
+			children = (
+				C28DC63C1817DDEA009F744C /* Crayola.h */,
+				C28DC63D1817DDEA009F744C /* EDColor.h */,
+				C28DC63E1817DDEA009F744C /* UIColor+CIELAB.h */,
+				C28DC63F1817DDEA009F744C /* UIColor+CIELAB.m */,
+				C28DC6401817DDEA009F744C /* UIColor+Crayola.h */,
+				C28DC6411817DDEA009F744C /* UIColor+Crayola.m */,
+				C28DC6421817DDEA009F744C /* UIColor+HCL.h */,
+				C28DC6431817DDEA009F744C /* UIColor+HCL.m */,
+				C28DC6441817DDEA009F744C /* UIColor+Hex.h */,
+				C28DC6451817DDEA009F744C /* UIColor+Hex.m */,
+				C28DC6461817DDEA009F744C /* UIColor+HSB.h */,
+				C28DC6471817DDEA009F744C /* UIColor+HSB.m */,
+				C28DC6481817DDEA009F744C /* UIColor+HSL.h */,
+				C28DC6491817DDEA009F744C /* UIColor+HSL.m */,
+			);
+			path = EDColor;
+			sourceTree = "<group>";
+		};
+		C2B21DB4181C64AA00F6BCEC /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				C2B21DB5181C64AA00F6BCEC /* Base64.h */,
+				C2B21DB6181C64AA00F6BCEC /* Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		C2F7E56E181FCEBE004294A2 /* RNTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C2F7E56B181FCEB7004294A2 /* RNTimer.h */,
+				C2F7E56C181FCEB7004294A2 /* RNTimer.m */,
+			);
+			name = RNTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C271DB9018172FD200FC665E /* FollowTheRainbow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C271DBC318172FD200FC665E /* Build configuration list for PBXNativeTarget "FollowTheRainbow" */;
+			buildPhases = (
+				C271DB8D18172FD200FC665E /* Sources */,
+				C271DB8E18172FD200FC665E /* Frameworks */,
+				C271DB8F18172FD200FC665E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FollowTheRainbow;
+			productName = FollowTheRainbow;
+			productReference = C271DB9118172FD200FC665E /* FollowTheRainbow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C271DBB118172FD200FC665E /* FollowTheRainbowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C271DBC618172FD200FC665E /* Build configuration list for PBXNativeTarget "FollowTheRainbowTests" */;
+			buildPhases = (
+				C271DBAE18172FD200FC665E /* Sources */,
+				C271DBAF18172FD200FC665E /* Frameworks */,
+				C271DBB018172FD200FC665E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C271DBB818172FD200FC665E /* PBXTargetDependency */,
+			);
+			name = FollowTheRainbowTests;
+			productName = FollowTheRainbowTests;
+			productReference = C271DBB218172FD200FC665E /* FollowTheRainbowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C271DB8918172FD200FC665E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Red Robot Studios";
+				TargetAttributes = {
+					C271DB9018172FD200FC665E = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					C271DBB118172FD200FC665E = {
+						TestTargetID = C271DB9018172FD200FC665E;
+					};
+				};
+			};
+			buildConfigurationList = C271DB8C18172FD200FC665E /* Build configuration list for PBXProject "FollowTheRainbow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C271DB8818172FD200FC665E;
+			productRefGroup = C271DB9218172FD200FC665E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C271DB9018172FD200FC665E /* FollowTheRainbow */,
+				C271DBB118172FD200FC665E /* FollowTheRainbowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C271DB8F18172FD200FC665E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ED95F418216FD2007F5A07 /* Images.xcassets in Resources */,
+				C271DB9F18172FD200FC665E /* InfoPlist.strings in Resources */,
+				C271DBA818172FD200FC665E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271DBB018172FD200FC665E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271DBBE18172FD200FC665E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C271DB8D18172FD200FC665E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B21DB7181C64AA00F6BCEC /* Base64.m in Sources */,
+				C271DBCB18173A3600FC665E /* RRIndicatorView.m in Sources */,
+				C28DC64D1817DDEA009F744C /* UIColor+Hex.m in Sources */,
+				C28DC64C1817DDEA009F744C /* UIColor+HCL.m in Sources */,
+				C28DC64E1817DDEA009F744C /* UIColor+HSB.m in Sources */,
+				C2F7E56D181FCEB7004294A2 /* RNTimer.m in Sources */,
+				C28DC64A1817DDEA009F744C /* UIColor+CIELAB.m in Sources */,
+				C271DBCE18173A7300FC665E /* RRGradientView.m in Sources */,
+				C28DC64F1817DDEA009F744C /* UIColor+HSL.m in Sources */,
+				C271DBA518172FD200FC665E /* RRAppDelegate.m in Sources */,
+				C271DBA118172FD200FC665E /* main.m in Sources */,
+				C28DC656181925E1009F744C /* CLLocation+Direction.m in Sources */,
+				C271DBAB18172FD200FC665E /* RRViewController.m in Sources */,
+				C28DC64B1817DDEA009F744C /* UIColor+Crayola.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C271DBAE18172FD200FC665E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C271DBC018172FD200FC665E /* FollowTheRainbowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C271DBB818172FD200FC665E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C271DB9018172FD200FC665E /* FollowTheRainbow */;
+			targetProxy = C271DBB718172FD200FC665E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C271DB9D18172FD200FC665E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C271DB9E18172FD200FC665E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C271DBA618172FD200FC665E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C271DBA718172FD200FC665E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C271DBBC18172FD200FC665E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C271DBBD18172FD200FC665E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C271DBC118172FD200FC665E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C271DBC218172FD200FC665E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C271DBC418172FD200FC665E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FollowTheRainbow/FollowTheRainbow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FollowTheRainbow/FollowTheRainbow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C271DBC518172FD200FC665E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FollowTheRainbow/FollowTheRainbow-Prefix.pch";
+				INFOPLIST_FILE = "FollowTheRainbow/FollowTheRainbow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C271DBC718172FD200FC665E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FollowTheRainbow.app/FollowTheRainbow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FollowTheRainbow/FollowTheRainbow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FollowTheRainbowTests/FollowTheRainbowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C271DBC818172FD200FC665E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FollowTheRainbow.app/FollowTheRainbow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FollowTheRainbow/FollowTheRainbow-Prefix.pch";
+				INFOPLIST_FILE = "FollowTheRainbowTests/FollowTheRainbowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C271DB8C18172FD200FC665E /* Build configuration list for PBXProject "FollowTheRainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C271DBC118172FD200FC665E /* Debug */,
+				C271DBC218172FD200FC665E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C271DBC318172FD200FC665E /* Build configuration list for PBXNativeTarget "FollowTheRainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C271DBC418172FD200FC665E /* Debug */,
+				C271DBC518172FD200FC665E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C271DBC618172FD200FC665E /* Build configuration list for PBXNativeTarget "FollowTheRainbowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C271DBC718172FD200FC665E /* Debug */,
+				C271DBC818172FD200FC665E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C271DB8918172FD200FC665E /* Project object */;
+}
